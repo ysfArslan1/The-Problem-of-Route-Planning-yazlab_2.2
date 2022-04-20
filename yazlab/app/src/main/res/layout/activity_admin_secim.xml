@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminSecimActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/buttondurak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duraklar" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/buttonaraclar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="araclar" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/rota_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Güzergah Hesapla" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/rota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="güzergah" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonsqlite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sqlite" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AdminAraclarActivity">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the details below"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/name_arac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttitle"
+        android:hint="Arac Name"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/kisi_sayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_arac"
+        android:hint="Kisi Sayisi"
+        android:inputType="number"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kisi_sayisi"
+        android:layout_marginTop="46dp"
+        android:text="Insert New Data"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInsert"
+        android:layout_marginTop="30dp"
+        android:text="Update Data"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdate"
+        android:layout_marginTop="30dp"
+        android:text="Delete Existing Data"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDelete"
+        android:layout_marginTop="30dp"
+        android:text="View Data"
+        android:textSize="24dp" />
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AdminDuraklarActivity">
+
+    <TextView
+        android:id="@+id/texttitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the details below"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/name_durak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttitle1"
+        android:hint="Durak name"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/durak_kisi_sayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_durak"
+        android:hint="Kisi Sayisi"
+        android:inputType="numberDecimal"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/name_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/durak_kisi_sayisi"
+        android:layout_marginTop="1dp"
+        android:hint="lat"
+        android:inputType="numberDecimal"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/name_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_lat"
+        android:layout_marginTop="4dp"
+        android:hint="long"
+        android:inputType="numberDecimal"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_long"
+        android:layout_marginTop="5dp"
+        android:text="Insert New Data"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInsert"
+        android:layout_marginTop="5dp"
+        android:text="Update Data"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdate"
+        android:layout_marginTop="5dp"
+        android:text="Delete Existing Data"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDelete"
+        android:layout_marginTop="5dp"
+        android:text="View Data"
+        android:textSize="24dp" />
+</RelativeLayout>
