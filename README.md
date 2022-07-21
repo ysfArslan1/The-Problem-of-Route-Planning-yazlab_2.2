@@ -1,7 +1,7 @@
 # Yazlab2 2. Proje
 
 
-Rota Planlama Problemi
+#Rota Planlama Problemi
 
 
 # Özet
@@ -66,13 +66,13 @@ Kullanıcı mapinin gösterildiği classdır.
 
 
 
-#VI. KAYNAKÇA 
+# VI. KAYNAKÇA 
 
 https://www.youtube.com/ https://stackoverflow.com/
 
 https://www.geeksforgeeks.org 
 
-developers.google.com/maps/documentation/javascript/ 
+https://developers.google.com/maps/documentation/javascript/ 
 
 www.w3schools.com/
 
