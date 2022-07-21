@@ -1,7 +1,7 @@
-# Yazlab_2.2
+# Yazlab2 2. Proje
+
 
 Rota Planlama Problemi
-
 
 
 # Özet
