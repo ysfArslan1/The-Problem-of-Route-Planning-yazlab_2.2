@@ -68,7 +68,9 @@ Kullanıcı mapinin gösterildiği classdır.
 
 # VI. KAYNAKÇA 
 
-https://www.youtube.com/ https://stackoverflow.com/
+https://www.youtube.com/ 
+
+https://stackoverflow.com/
 
 https://www.geeksforgeeks.org 
 
