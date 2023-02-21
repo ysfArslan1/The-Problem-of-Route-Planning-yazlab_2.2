@@ -6,7 +6,7 @@
 
 # Özet
 
-Yazılım Labaratuvarı 2 dersi 1. projesi kapsamıda çok katmanlı bir mobil uygulama geliştirmemiz istenmiştir.Bu proje ile birlikte gerçek dünya ihtiyaçlarını karşılayacak bazı yetenekler kazandırılacaktır.Bunların başlıcaları algoritma çözümleme,araştırma ve mobil yazılım konularıdır.Bunun dışında bir mobil uygulamasının kütüphaneleri,alt yapısının öğrenilmesi ve uygulanması ,veri tabanlarının kullanılması ve veri tabanı tasarımı konuları da büyük önem teşkil etmektedir.
+Yazılım Labaratuvarı 2 dersi 2. projesi kapsamıda çok katmanlı bir mobil uygulama geliştirmemiz istenmiştir.Bu proje ile birlikte gerçek dünya ihtiyaçlarını karşılayacak bazı yetenekler kazandırılacaktır.Bunların başlıcaları algoritma çözümleme,araştırma ve mobil yazılım konularıdır.Bunun dışında bir mobil uygulamasının kütüphaneleri,alt yapısının öğrenilmesi ve uygulanması ,veri tabanlarının kullanılması ve veri tabanı tasarımı konuları da büyük önem teşkil etmektedir.
 
 # Giriş
 
